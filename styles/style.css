@@ -1,0 +1,49 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+
+.nav-container{
+     background-color: bisque;
+      display: flex; 
+      justify-content: space-around;
+}
+.nva-btn{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+}
+.btn-login{
+      text-transform: capitalize;
+     width: 80px;
+     height: 30px;
+      border-radius: 20px;
+      border: none;
+}
+.get-button{
+      background-color: black;
+      color: white;
+      width: 120px;
+      height: 30px;
+      border-radius: 20px;
+}
+.p-div-text{
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: capitalize;
+word-spacing: 10px;
+}
+.h1-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.here-sction{
+      
+}
