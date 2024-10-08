@@ -6,6 +6,7 @@
 
 
 .nav-container{
+      padding: 15px;
      background-color: bisque;
       display: flex; 
       justify-content: space-around;
@@ -45,5 +46,264 @@ word-spacing: 10px;
 }
 
 .here-sction{
+      position: relative;
+     height: 600px;
+     background-image: url(../images/Rectangle\ 1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.madel-point{
+      position: absolute;
+      width: 1160px;
+      margin: 0 auto;
+      height: 344px;
+     background-color: white;
+      top: 200px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+}
+
+
+.madel-h1{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+}
+
+.butto1-sciton{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      gap: 10px;
+
+
+}
+
+#cars{
+      padding: 15px;
+      width: 222px;
+      height: 50px;
+      border: none;
+      border-radius: 7px;
+      font-size: 16px;
+      border: none;
+      background-color:#F0F0F0;
+}
+.butto1-sciton button{
+      width: 222px;
+      height: 50px;
+      border: none;
+      border-radius: 7px;
+}
+
+.butto2-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      gap: 10px;
+}
+
+.how-much-btn{
+      width: 690px;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+     font-size: 16px;
+     font-weight: bold;
+}
+.find-button{
+      width: 222px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+      background-color: #00EBC7;
+      font-size: 16px;
+      font-weight: bold;
+}
+.why-zappr-btn{
+      margin-top: 200px;
+      margin-left: 500px;
+      width: 183px;
+      height: 45px;
+      border-radius: 50px;
+      border: 2px solid white;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.buy-main-container{
+      background-color:#FDE24F ;
+      padding: 20px;
+}
+
+.buy-text{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+}
+.buy-image{
+      text-align: center;
+      margin-top: 20px;
+}
+
+
+/* feater section start here */
+
+.features-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+      height: 600px;
+}
+.features-test{
+      margin-top: 30px;
+      margin-left: 40px;
+}
+.features-seciton{
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+}
+.amet-text{
+      text-align: center;
+}
+.under-linep{
+      margin-top: 15px;
+      text-decoration: underline;
+}
+.see-full-text{
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     margin-bottom: 200px;
+     
+     
+     
+}
+.see-full-text button{
+      padding: 10px;
+      border-radius: 50px;
+}
+/* feater section start here */
+
+
+/* buy and sell seciotn start here */
+.buy-sell-container{
+      width: 90%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+     
+      
+}
+.doller-secton{
+      display: flex;
+      justify-content: center;
+    
+      align-items: center;
+      background-color:white;
+      padding: 10px;
+      border-radius: 10px;
+      word-spacing: 20px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      
+}
+.view-button{
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 600px;
+     
+}
+.view-button button{
+      padding: 15px 30px;
+      border-radius: 10px;
+      background-color: black;
+      color: white;
+}
+/* buy and sell seciotn start here */
+
+
+/* sing up and container start here */
+
+.singup-container{
+      background-color:#CFBAFF;
+      padding-bottom: 40px;
+    
+}
+.text-conts{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+     
+}
+.text-conts h1{
+margin-top: 40px;
+}
+.get-button-here{
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      
+}
+/* sing up and container end here */
+
+.backgroun-black{
+      background-color: black;
+      padding: 30px;
+}
+.get-button-here button{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.footer-main-container{
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      line-height: 30px;
+      margin-top: 30px;
+
+}
+.footer-main-container h1{
+      color: white;
+}
+.footer-main-container p{
+      margin-top: 20px;
+      font-size: 20px;
+      color: white;
+
+}
+.horizenteal{
+     margin-top: 40px; 
+     width: 100%;
+}
+.last-footer p{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      margin-top: 30px;
       
 }
